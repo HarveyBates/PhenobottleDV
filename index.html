@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phenobottle-Visualiser</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="node_modules/plotly.js/dist/plotly.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+    <img src="PhenobottleDV.png" class="heading"></img>
+
+    <div>
+        <div id="threeDplot" class="threeDplot" style="display: inline-block">
+            <script type="module" src="./app.js"></script>
+        </div>
+        <div id="threeDplot1" class="threeDplot1" style="display: inline-block">
+            <script type="module" src="./app.js"></script>
+        </div>
+        <div id="linePlot" class="linePlot" style="display: inline-block">
+            <script type="module" src="./app.js"></script>
+        </div>
+    </div>
+
+    <div>
+        <table class="tableofvalues" id="tableData">
+            <script type="module" src="./app.js"></script>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Day_Night</th>
+                    <th>Optical Density</th>
+                    <th>Fo</th>
+                    <th>Fj</th>
+                    <th>Fi</th>
+                    <th>Fm</th>
+                    <th>Variable Fl.</th>
+                    <th>Quantum Yield</th>
+                    <th>Vj</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <table class="tableofvalues1" id="tableData1">
+                <script type="module" src="./app.js"></script>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Day_Night</th>
+                        <th>Optical Density</th>
+                        <th>Fo</th>
+                        <th>Fj</th>
+                        <th>Fi</th>
+                        <th>Fm</th>
+                        <th>Variable Fl.</th>
+                        <th>Quantum Yield</th>
+                        <th>Vj</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr></tr>
+                </tbody>
+        </table>
+    </div>
+
+
+</body>
+
+</html>
