@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
 html {
     background-image: linear-gradient(rgb(21, 39, 66), rgb(27, 40, 48));
     min-height: 100%;
@@ -25,9 +33,6 @@ html {
 .plots{
     padding: 10px;
     display: grid;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-
 }
 
 

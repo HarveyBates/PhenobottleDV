@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "pg": "^8.5.1"
-  }
+  },
+  "name": "phenobottledv",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarveyBates/PhenobottleDV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarveyBates/PhenobottleDV/issues"
+  },
+  "homepage": "https://github.com/HarveyBates/PhenobottleDV#readme"
 }
