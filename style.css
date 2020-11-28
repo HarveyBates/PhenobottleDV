@@ -16,76 +16,20 @@ html {
 }
 
 .heading{
+    width: 250px;
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;
+    padding: 10px;
     color: rgb(255, 255, 255);
+}
+
+.plots{
+    padding: 10px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 
 }
 
-.photo{
-    position: relative;
-    margin-left: 50px;
-    margin-top:20px;
-    box-shadow: 5px 10px #00000070;
-}
-
-.threeDplot{
-    padding: 0px;
-    margin-left: 10px;
-    font-family: sans-serif;
-    box-shadow: 0 5px 5px 3px rgba(0,0,0,.2), 0 5px 5px 0 rgba(0,0,0,.14), 0 5px 5px 0 rgba(0,0,0,.12);
-}
-
-.threeDplot1{
-    padding: 0px;
-    margin-left: 10px;
-    font-family: sans-serif;
-    box-shadow: 0 5px 5px 3px rgba(0,0,0,.2), 0 5px 5px 0 rgba(0,0,0,.14), 0 5px 5px 0 rgba(0,0,0,.12);
-}
-
-.linePlot{
-    padding: 0px;
-    margin-left: 10px;
-    box-shadow: 0 5px 5px 3px rgba(0,0,0,.2), 0 5px 5px 0 rgba(0,0,0,.14), 0 5px 5px 0 rgba(0,0,0,.12);
-}
-
-.tableofvalues{
-    font-family: Helvetica;
-    padding-left: 10px;
-    padding-bottom: 50px;
-    width: 0%;
-    margin: left;
-    float: left;
-}
-
-.tableofvalues1{
-    font-family: Helvetica;
-    padding-bottom: 50px;
-    padding-left: 10px;
-    width: 0%;
-    float: left;
-}
-
-td, th{
-    border-bottom: 1px solid rgb(255, 255, 255);
-    padding: 4px;
-    text-align: left;
-    font: bold;
-    color: rgb(184, 188, 196);
-}
-
-th{
-    font-weight: bold;
-    text-align: left;
-}
-
-table.tableofvalues tr:hover td{
-    background-color: #e4e4e427;
-}
-
-table.tableofvalues1 tr:hover td{
-    background-color: #e4e4e427;
-}
 
 
 
